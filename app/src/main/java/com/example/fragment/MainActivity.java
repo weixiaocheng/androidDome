@@ -10,7 +10,7 @@ import com.example.fragment.fragment.CartFragment;
 import com.example.fragment.fragment.HomeFragment;
 import com.example.fragment.fragment.MineFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     protected LinearLayout lHome , lCart, lMine;
     protected Fragment f_home = new HomeFragment();
